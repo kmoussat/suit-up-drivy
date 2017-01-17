@@ -110,25 +110,25 @@ DRIVY = (function namespace () {
     var deductibleOption = option ? 4 * days : 0;
 
     var actors = [{
-      'who': 'driver',
-      'type': 'debit',
-      'amount': price + deductibleOption
+      'who': "Driver's",
+      'type': 'debit = ',
+      'amount': price + deductibleOption + "€"
     }, {
-      'who': 'owner',
-      'type': 'credit',
-      'amount': price - commission.value
+      'who': "Owner's ",
+      'type': 'credit = ',
+      'amount': price - commission.value + "€"
     }, {
-      'who': 'insurance',
-      'type': 'credit',
-      'amount': commission.insurance
+      'who': "Insurance's ",
+      'type': 'credit = ',
+      'amount': commission.insurance + "€"
     }, {
-      'who': 'assistance',
-      'type': 'credit',
-      'amount': commission.assistance
+      'who': "Assistance's ",
+      'type': 'credit = ',
+      'amount': commission.assistance + "€"
     }, {
-      'who': 'drivy',
-      'type': 'credit',
-      'amount': commission.drivy + deductibleOption
+      'who': "Drivy's ",
+      'type': 'credit = ',
+      'amount': commission.drivy + deductibleOption + "€"
     }];
 
     return actors;
