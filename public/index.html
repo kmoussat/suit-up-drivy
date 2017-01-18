@@ -27,21 +27,19 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/form.css" rel="stylesheet">
-
+<link href='https://drivy-prod-static.s3.amazonaws.com/favicons/09-2016/favicon-32x32.png' rel='icon' size='32x32' type='image/png'>
 <link rel="stylesheet" href="css/magnific-popup.css">
 <script src="js/modernizr-2.6.2.min.js"></script>  
 </head>
 <body id="home">
  
 
- 
 
- 
 <nav class="navbar-default" role="navigation">
 <div class="container">
 <div class="navbar-header">
-
-<a class="navbar-brand" href="#home">Drivy</a>
+<a class="navbar-brand" href="#home"><img src="https://drivy-prod-static.s3.amazonaws.com/favicons/09-2016/mstile-144x144.png"></a>
+<!-- a class="navbar-brand" href="#home">Drivy</a -->
 </div>
 
 </div>
@@ -89,28 +87,28 @@
     <!-- button type="submit" id="compute">Compute</button -->
 	</ul>
    </form>
-   
-   
+ 
+  
 
    <div id="actors"></div>
     <a name="section1"></a>
 	<script id="template" type="x-tmpl-mustache">
 	<hr>
-	<h3>Results</h2>
+	
 	<ul class="form-style-5">
+	<img src='https://drivy-prod-static.s3.amazonaws.com/favicons/09-2016/favicon-32x32.png' rel='icon' size='32x32' type='image/png'><h3>Drivy's bill</h3>
       {{#actors}}
         <div class="actor">
-          <h5><span>{{who}}</span>
+          <h5><li><span>{{who}}</span>
           <span>{{type}}</span>
-          <span>{{amount}}</span></h5>
+          <span>{{amount}}</span></li></h5>
         </div>
       {{/actors}}
 	  </ul>
     </script>
 	
-</div>
-
-
+	
+	
 
  
 <script src="js/jquery-1.10.2.js"></script>

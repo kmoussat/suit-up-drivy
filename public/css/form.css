@@ -1,3 +1,11 @@
+body { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .form-style-5{
     max-width: 500px;
     padding: 10px 20px;
@@ -6,7 +14,7 @@
     padding: 20px;
     background: #f4f7f8;
     border-radius: 8px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Calibri", Times, serif;
 }
 .form-style-5 fieldset{
     border: none;
